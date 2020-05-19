@@ -1,5 +1,6 @@
 #!/bin/bash
 # Update libc-database libs folder from db folder with symlinks
+# Credits to Maxxvw
 
 LIBCDATABASE_DIR=~/tools/libc-database/
 LINK_NAME=libc.so.6
