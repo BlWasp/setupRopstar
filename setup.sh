@@ -9,13 +9,7 @@ cd ~/tools
 git clone https://github.com/JonathanSalwan/ROPgadget.git
 git clone https://github.com/niklasb/libc-database.git
 cd libc-database
-apt-get update
-apt-get install -y \
-  binutils file \
-  wget \
-  rpm2cpio cpio \
-  zstd
-./get all
+./get ubuntu debian
 cd ..
 git clone https://github.com/xct/ropstar.git
 cd ropstar
