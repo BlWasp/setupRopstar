@@ -15,4 +15,5 @@ git clone https://github.com/xct/ropstar.git
 cd ropstar
 pip3 install -r requirements.txt
 cd ..
+chmod +x setupLibc.sh
 ./setupLibc.sh
